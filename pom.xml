@@ -81,11 +81,11 @@
             <version>2.2.21</version>
         </dependency>
 
-        <!-- BASE DE DATOS H2 PARA TESTS -->
+        <!-- H2 DATABASE (ARREGLADO) -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <scope>test</scope>
+            <scope>runtime</scope>
         </dependency>
 
     </dependencies>
