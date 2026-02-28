@@ -63,7 +63,12 @@
 	  <type>jar</type>
 	 </dependency>
 	</dependencies>
-
+<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <scope>test</scope>
+</dependency>
+	
 	<build>
 	    <finalName>vehiculosBuild</finalName>
 		<plugins>
